@@ -15,13 +15,8 @@ const navbar = () => {
         </div>
 
         {/*menu */}
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        
+        <div className='p-28'></div>
             <ul className='hidden md:flex'>
                 <li>Home</li>
                 <li>About</li>
