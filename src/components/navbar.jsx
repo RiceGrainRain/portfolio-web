@@ -9,13 +9,12 @@ const navbar = () => {
     const handleClick = () => setNav(!nav)
     
   return (
-    <div className = "fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-gray-300 hover:text-white">
+    <div className = "fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000]">
         <div>
             <img src={Logo} alt="Logo Image" style={{width: '100px', height: '100px'}} />
         </div>
 
         {/*menu */}
-        
         <div className='p-28'></div>
             <ul className='hidden md:flex'>
                 <li className = ' text-gray-300 hover:text-white'>Home</li>
