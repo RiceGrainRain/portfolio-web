@@ -9,7 +9,7 @@ const navbar = () => {
     const handleClick = () => setNav(!nav)
     
   return (
-    <div className = "fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-white">
+    <div className = "fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-gray-300 hover:text-white">
         <div>
             <img src={Logo} alt="Logo Image" style={{width: '100px', height: '100px'}} />
         </div>
@@ -18,11 +18,11 @@ const navbar = () => {
         
         <div className='p-28'></div>
             <ul className='hidden md:flex'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Work</li>
-                <li>Contact</li>
+                <li className = ' text-gray-300 hover:text-white'>Home</li>
+                <li className = ' text-gray-300 hover:text-white'>About</li>
+                <li className = ' text-gray-300 hover:text-white'>Skills</li>
+                <li className = ' text-gray-300 hover:text-white'>Work</li>
+                <li className = ' text-gray-300 hover:text-white'>Contact</li>
             </ul>
 
 
@@ -34,11 +34,11 @@ const navbar = () => {
         {/*Mobile Menu*/}
         <div>
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#000000] flex flex-col justify-center items-center'}>
-                <li className='py-6 text-4xl'>Home</li>
-                <li className='py-6 text-4xl'>About</li>
-                <li className='py-6 text-4xl'>Skills</li>
-                <li className='py-6 text-4xl'>Work</li>
-                <li className='py-6 text-4xl'>Contact</li>
+                <li className='py-6 text-4xl text-gray-300 hover:text-white'>Home</li>
+                <li className='py-6 text-4xl text-gray-300 hover:text-white'>About</li>
+                <li className='py-6 text-4xl text-gray-300 hover:text-white'>Skills</li>
+                <li className='py-6 text-4xl text-gray-300 hover:text-white'>Work</li>
+                <li className='py-6 text-4xl text-gray-300 hover:text-white'>Contact</li>
             </ul>
         </div>
 
